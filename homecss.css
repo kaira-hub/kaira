@@ -1,0 +1,132 @@
+
+*{
+
+box-sizing: border-box;
+
+}
+.propelledsection h1,h3{
+    text-align: center;
+    color: #0a537b;
+}
+.propelledsection h3{
+    line-height: 0%;
+}
+.propelledsection p{
+    color: #0a537b;
+    font-size: 22px;
+    margin-left: 100px;
+    width:80%;
+}
+.propelledimage{
+  width:85%;
+    margin-left: 100px;
+}
+.propelledimage img{ 
+    float: left;
+  height:400px;
+    margin-bottom: 50px;
+
+}
+
+
+
+.propelledimage{
+content:"";
+display:table;
+  clear:both;
+}
+
+
+/*about*/
+.missionimg{
+  max-width:500px;
+  height:480px;
+  border-radius:40px;
+  margin-left:100px;
+  float:left;
+
+}
+
+.missionsection h4{
+  color: #0a537b;
+  font-size: 20px;
+ 
+}
+
+
+.missionsection{
+  margin-left:700px;
+}
+.missionsection p{
+  font-size:18px;
+  max-width:85%;
+ 
+  color: #0a537b;
+  margin-top:-20px;
+}
+.misimg{
+  float:left;
+  width:80px;
+  height:60px;
+  margin-right:20px;
+}
+
+
+
+.visionimg{
+width:80px;
+  height:60px;
+  margin-left:10px;
+
+  float:right;
+  margin-top: 20px;
+
+}
+
+.policyimg{
+  float:left;
+  width:80px;
+  height:60px;
+  margin-right:20px;
+    margin-top:10px;
+}
+
+
+.safetyimg{
+float:right;
+  width:80px;
+  height:60px;
+  margin-left:10px;
+    margin-top:20px;
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 480px) {
+.propelledimage img{
+    display:block;
+    flex-direction: column;
+}
+.propelledimage{
+    margin-left: 0%;
+}
+.propelledsection h1,h3{
+    margin-left: 70px;    
+}
+.propelledsection p{
+    font-size: 30px;
+    margin-left: 60px;
+    width:100%;
+}
+}
